@@ -4,10 +4,10 @@ btn.addEventListener('click', Play);
 
 function Play(e) {
   if (video.paused) {
-    e.target.src = '../task_3/assets/pause-icon.svg';
+    e.target.src = '../../assets/pause-icon.svg';
     video.play();
   } else {
-    e.target.src = '../task_3/assets/play-icon.svg';
+    e.target.src = '../../assets/play-icon.svg';
     video.pause();
   }
 }
